@@ -189,12 +189,12 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001172/versions/draft/assets/
 name: Dual-color mesoscopic imaging of both ACh and calcium across the neocortex of
   awake mice.
-protocol: []
 relatedResource:
 - identifier: https://doi.org/10.1038/s41593-022-01202-6
   name: Dual color mesoscopic imaging reveals spatiotemporally heterogeneous coordination
     of cholinergic and neocortical activity
   relation: dcite:IsDescribedBy
+  repository: Nature Neuroscience
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1038/s41593-022-01202-6
@@ -214,7 +214,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget: []
 url: https://dandiarchive.org/dandiset/001172/draft
 version: draft
 wasGeneratedBy: []
