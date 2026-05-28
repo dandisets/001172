@@ -167,6 +167,15 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
+  includeInCitation: false
+  name: Trapani, Alessandra
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2024-08-14T12:41:51.861328+00:00'
 description: "Dual-color mesoscopic imaging of both ACh and calcium across the neocortex
   of awake mice to investigate their relationships with behavioral variables. We find
