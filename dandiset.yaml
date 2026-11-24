@@ -51,11 +51,6 @@ citation: Lohani, Sweyta; Moberly, Andrew H.; Benisty, Hadas; Landa, Boris; Jing
   imaging of both ACh and calcium across the neocortex of awake mice (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001172/draft
 contributor:
-- awardNumber: 5 R01 MH 099045-10
-  name: National Institutes of Health (NIH)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 - affiliation:
   - identifier: https://ror.org/03v76x132
     name: Yale University
@@ -65,16 +60,22 @@ contributor:
   name: Lohani, Sweyta
   roleName:
   - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:FormalAnalysis
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/03v76x132
     name: Yale University
     schemaKey: Affiliation
-  identifier: 0000-0001-8209-5303
+  identifier: 0000-0003-0198-3355
   includeInCitation: true
   name: Moberly, Andrew H.
   roleName:
   - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:FormalAnalysis
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/03v76x132
@@ -85,6 +86,7 @@ contributor:
   name: Benisty, Hadas
   roleName:
   - dcite:Author
+  - dcite:FormalAnalysis
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/03v76x132
@@ -93,10 +95,12 @@ contributor:
   - identifier: https://ror.org/03seew607
     name: Applied Mathematics (United States)
     schemaKey: Affiliation
+  identifier: 0000-0003-3472-8828
   includeInCitation: true
   name: Landa, Boris
   roleName:
   - dcite:Author
+  - dcite:FormalAnalysis
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/029819q61
@@ -107,6 +111,7 @@ contributor:
   name: Jing, Miao
   roleName:
   - dcite:Author
+  - dcite:Conceptualization
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/02v51f717
@@ -123,6 +128,7 @@ contributor:
   name: Li, Yulong
   roleName:
   - dcite:Author
+  - dcite:Conceptualization
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/03v76x132
@@ -134,6 +140,8 @@ contributor:
   name: Higley, Michael J.
   roleName:
   - dcite:Author
+  - dcite:Conceptualization
+  - dcite:FundingAcquisition
   - dcite:ContactPerson
   schemaKey: Person
 - affiliation:
@@ -146,27 +154,10 @@ contributor:
   name: Cardin, Jessica A.
   roleName:
   - dcite:Author
+  - dcite:Conceptualization
+  - dcite:FundingAcquisition
+  - dcite:ContactPerson
   schemaKey: Person
-- identifier: https://ror.org/03a63f080
-  name: Brain and Behavior Research Foundation
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- identifier: https://ror.org/01cmst727
-  name: Simons Foundation
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- identifier: https://ror.org/04xeg9z08
-  name: National Institute of Mental Health
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- identifier: https://ror.org/03wkg3b53
-  name: National Eye Institute
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 - affiliation:
   - identifier: https://ror.org/01d74sk53
     name: CatalystNeuro
@@ -177,6 +168,96 @@ contributor:
   roleName:
   - dcite:DataCurator
   schemaKey: Person
+- awardNumber: R01MH099045
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R21MH121841
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01MH113852
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: DP1EY033975
+  identifier: https://ror.org/03wkg3b53
+  includeInCitation: false
+  name: National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01EY022951
+  identifier: https://ror.org/03wkg3b53
+  includeInCitation: false
+  name: National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: EY031133
+  identifier: https://ror.org/03wkg3b53
+  includeInCitation: false
+  name: National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: EY026878
+  identifier: https://ror.org/03wkg3b53
+  includeInCitation: false
+  name: National Eye Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Kavli Institute of Neuroscience
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: SFARI Research Grant
+  identifier: https://ror.org/01cmst727
+  includeInCitation: false
+  name: Simons Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Swebilius Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/03zj4c476
+  includeInCitation: false
+  name: Aligning Science Across Parkinson's
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Ludwig Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: Young Investigator Grant
+  identifier: https://ror.org/03a63f080
+  includeInCitation: false
+  name: Brain and Behavior Research Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/04eqn7j88
+  includeInCitation: false
+  name: Swartz Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-08-14T12:41:51.861328+00:00'
 description: "Dual-color mesoscopic imaging of both ACh and calcium across the neocortex
   of awake mice to investigate their relationships with behavioral variables. We find
@@ -191,8 +272,9 @@ identifier: DANDI:001172
 keywords:
 - calcium imaging
 - ACh imaging
-- Cholinergic network activity
-- Dual-color mesoscopic imaging
+- cholinergic activity
+- neocortex activity
+- dual-color mesoscopic imaging
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
